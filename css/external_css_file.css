@@ -1,40 +1,31 @@
-/* CSS Reset */
 
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Global Styling */
-
+/* Body */
 body {
     background-color: #0F172A;
     color: white;
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
-/* Header Styling */
-
+/* Header */
 header {
-    
     display: flex;
     align-items: center;
-    
-
 }
-
 
 header img {
     width: 60px;
-
 }
 
 header span {
@@ -43,7 +34,7 @@ header span {
     margin-left: 12px;
 }
 
-/*Navigation Style */
+/* Navigation */
 nav {
     position: absolute;
     left: 50%;
@@ -54,37 +45,11 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 40px;
-
-}
-
-
-
-
-/* Main Styling for Content */
-
-main {
-    text-align: center;
-    margin-top: 15px;
-    
-}
-
-main h2 {
-    margin-bottom: 10px;
-}
-
-main h2:nth-of-type(2) {
-    margin-top: 80px;
-}
-
-main p {
-    margin-bottom: 20px;
-    font-weight: normal;
-    font-size: 20px;
 }
 
 nav a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-size: 18px;
 }
 
@@ -92,35 +57,54 @@ nav a:hover {
     color: lightblue;
 }
 
-
-/* Footer Styling */
-
-footer {
-    margin-top: auto;
+/* Main Content */
+main {
     text-align: center;
+    margin-top: 15px;
 }
 
-/* Projects Page Styling */
+main h2 {
+    margin-bottom: 10px;
+}
 
-main section h3 {
+main p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Home Page */
+.home-page main h2 {
+    margin-top: 80px;
+}
+
+/* Projects Page */
+.projects-page main section {
+    margin-bottom: 40px;
+}
+
+.projects-page main section h2 {
     margin-bottom: 20px;
     font-size: 24px;
 }
 
-
-main section {
-    margin-bottom: 40px;
-}
-
-
-/* Skills Page Styling */
-
+/* Skills Page */
 .skills-page main section {
     margin-bottom: 25px;
 }
 
-.skills-page main section h3 {
+.skills-page main section h2 {
     margin-bottom: 10px;
+}
+
+/* Contact Page */
+.contact-page main a {
+    color: lightblue;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    text-align: center;
 }
 
 .skills-page footer {
@@ -128,17 +112,8 @@ main section {
     padding-bottom: 15px;
 }
 
-
-/* Contact Page Styling */
-
-.contact-page main a {
-    color: lightblue;
-}
-
-/* Mobile Styling */
-
+/* Mobile */
 @media (max-width: 600px) {
-
     header {
         flex-wrap: wrap;
         justify-content: center;
@@ -158,7 +133,6 @@ main section {
     }
 
     main h1 {
-    font-size: 28px;
-}
-
+        font-size: 28px;
+    }
 }
