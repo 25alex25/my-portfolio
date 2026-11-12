@@ -112,6 +112,20 @@ footer {
     padding-bottom: 15px;
 }
 
+/* Resume Page Styling */
+
+.resume-page main section {
+    margin-bottom: 40px;
+}
+
+.resume-page footer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+
+
 /* Mobile */
 @media (max-width: 600px) {
     header {
