@@ -72,6 +72,11 @@ main p {
     font-size: 20px;
 }
 
+.home-page main h1 {
+    margin-bottom: 30px;
+}
+
+
 /* Home Page */
 .home-page main h2 {
     margin-top: 80px;
