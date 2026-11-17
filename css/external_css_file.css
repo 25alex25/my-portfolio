@@ -128,6 +128,14 @@ footer {
     padding-bottom: 15px;
 }
 
+/* Home Page Introduction */
+.home-page .home-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
 
 
 
