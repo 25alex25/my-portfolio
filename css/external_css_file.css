@@ -87,6 +87,12 @@ main p {
     margin-bottom: 40px;
 }
 
+.projects-page .project-card {
+    background-color: #1E293B;
+    padding: 25px;
+    border-radius: 10px;
+}
+
 .projects-page main article h2 {
     margin-bottom: 20px;
     font-size: 24px;
