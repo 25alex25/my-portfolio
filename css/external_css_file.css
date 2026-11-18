@@ -83,11 +83,11 @@ main p {
 }
 
 /* Projects Page */
-.projects-page main section {
+.projects-page main article {
     margin-bottom: 40px;
 }
 
-.projects-page main section h2 {
+.projects-page main article h2 {
     margin-bottom: 20px;
     font-size: 24px;
 }
