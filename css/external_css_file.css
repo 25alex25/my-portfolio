@@ -136,6 +136,17 @@ footer {
 }
 
 
+/* Developer Illustration */
+.home-page .developer-illustration {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 30px auto;
+}
+
+
+
 
 
 
