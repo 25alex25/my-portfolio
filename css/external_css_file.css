@@ -122,6 +122,22 @@ main p {
     margin-bottom: 10px;
 }
 
+.skills-page .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.skills-page .skills-grid section {
+    background-color: #1E293B;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
 /* Contact Page */
 .contact-page main a {
     color: lightblue;
@@ -312,6 +328,9 @@ footer {
     }
 
     .projects-page .projects-grid {
+    grid-template-columns: 1fr;
+}
+    .skills-page .skills-grid {
     grid-template-columns: 1fr;
 }
 
