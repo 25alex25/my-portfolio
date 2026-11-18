@@ -147,6 +147,35 @@ footer {
 
 
 
+/* Resume Coursework Table */
+.resume-page .coursework table {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.resume-page .coursework th,
+.resume-page .coursework td {
+    padding: 15px;
+    border: 1px solid #64748B;
+    text-align: left;
+}
+
+.resume-page .coursework th {
+    background-color: #334155;
+}
+
+.resume-page .coursework tbody tr:nth-of-type(odd) {
+    background-color: #1E293B;
+}
+
+.resume-page .coursework tbody tr:nth-of-type(even) {
+    background-color: #0F172A;
+}
+
+
+
 
 
 
