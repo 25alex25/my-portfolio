@@ -160,6 +160,23 @@ footer {
     margin-bottom: 40px;
 }
 
+.resume-page .resume-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.resume-page .resume-grid > section {
+    background-color: #1E293B;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
 .resume-page footer {
     padding-top: 20px;
     padding-bottom: 15px;
@@ -331,6 +348,10 @@ footer {
     grid-template-columns: 1fr;
 }
     .skills-page .skills-grid {
+    grid-template-columns: 1fr;
+}
+
+    .resume-page .resume-grid {
     grid-template-columns: 1fr;
 }
 
