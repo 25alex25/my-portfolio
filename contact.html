@@ -53,6 +53,42 @@
                 </a>
             </p>
         </section>
+
+        
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+
+            <form action="#" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{10}"
+                       title="Enter a 10-digit phone number">
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="projects">Projects</option>
+                    <option value="opportunities">Opportunities</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"
+                          rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+
+
+        
     </main>
 
     <footer>
