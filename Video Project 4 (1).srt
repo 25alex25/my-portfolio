@@ -1,0 +1,227 @@
+1
+00:00:01,390 --> 00:00:03,911
+Hi, this is a C++ program that I
+
+2
+00:00:03,911 --> 00:00:06,511
+created called iMobile Bill Calculator.
+
+3
+00:00:07,151 --> 00:00:09,071
+Basically, the program calculates your
+
+4
+00:00:09,071 --> 00:00:10,511
+monthly phone bill based on the
+
+5
+00:00:10,511 --> 00:00:12,672
+subscription package you choose from and
+
+6
+00:00:12,672 --> 00:00:15,352
+how many gigabytes of data you use. There
+
+7
+00:00:15,352 --> 00:00:17,752
+are three different package choices. As
+
+8
+00:00:17,752 --> 00:00:20,113
+you can see, there's package A, package
+
+9
+00:00:20,113 --> 00:00:22,993
+B, and package C, and each one has a
+
+10
+00:00:22,993 --> 00:00:24,473
+different monthly price and data
+
+11
+00:00:24,473 --> 00:00:26,614
+allowance. And I'm going to be showing
+
+12
+00:00:26,614 --> 00:00:28,134
+you how each package works.
+
+13
+00:00:29,574 --> 00:00:31,894
+So first things first, I'm going to start
+
+14
+00:00:31,894 --> 00:00:34,535
+by selecting package A by
+
+15
+00:00:34,535 --> 00:00:35,255
+entering 1.
+
+16
+00:00:37,975 --> 00:00:40,336
+The program then asks the user how many
+
+17
+00:00:40,336 --> 00:00:42,136
+gigabytes of data were used.
+
+18
+00:00:43,656 --> 00:00:46,616
+Package A costs $39 a month and
+
+19
+00:00:46,616 --> 00:00:49,207
+includes 4 gigabytes of data. And if you
+
+20
+00:00:49,207 --> 00:00:51,127
+go over that amount, you get charged an
+
+21
+00:00:51,127 --> 00:00:53,207
+additional $10 for each GB.
+
+22
+00:00:54,007 --> 00:00:56,048
+So for this example, I'm going to be
+
+23
+00:00:56,048 --> 00:00:57,448
+entering 6 GB.
+
+24
+00:01:02,089 --> 00:01:04,409
+Since that's 2 GB over the limit, the
+
+25
+00:01:04,729 --> 00:01:06,809
+program adds an extra $20 to the monthly
+
+26
+00:01:06,809 --> 00:01:09,690
+price. And that's
+
+27
+00:01:09,690 --> 00:01:12,490
+how the program works when the user
+
+28
+00:01:12,690 --> 00:01:13,940
+chooses package A.
+
+29
+00:01:15,490 --> 00:01:17,811
+Next, I'm going to be trying package B
+
+30
+00:01:18,691 --> 00:01:19,891
+by entering 2.
+
+31
+00:01:22,771 --> 00:01:25,452
+Package B costs $59 a month and
+
+32
+00:01:25,452 --> 00:01:28,212
+includes 8GB of data. And if you go
+
+33
+00:01:28,292 --> 00:01:30,292
+over that amount, each additional GB
+
+34
+00:01:30,292 --> 00:01:32,853
+costs $5. So for
+
+35
+00:01:32,853 --> 00:01:35,173
+example, let's say the user enters
+
+36
+00:01:35,173 --> 00:01:36,213
+10GB.
+
+37
+00:01:40,294 --> 00:01:41,814
+Since that's two gigabytes over the
+
+38
+00:01:41,814 --> 00:01:43,774
+limit, the program adds an extra $10. And
+
+39
+00:01:45,294 --> 00:01:47,295
+that's why the total bill comes out to
+
+40
+00:01:47,655 --> 00:01:49,335
+$69.99. And
+
+41
+00:01:50,535 --> 00:01:52,535
+that's how the program works for
+
+42
+00:01:53,256 --> 00:01:54,056
+package B.
+
+43
+00:01:56,536 --> 00:01:59,056
+Finally, I'm going to try package C by
+
+44
+00:01:59,056 --> 00:01:59,897
+entering 3.
+
+45
+00:02:03,737 --> 00:02:06,617
+Package C costs $69.99 a
+
+46
+00:02:06,777 --> 00:02:09,538
+month and includes unlimited datawhich
+
+47
+00:02:09,538 --> 00:02:11,058
+means you won't get charged extra no
+
+48
+00:02:11,058 --> 00:02:14,018
+matter how many gigabytes you use. So for
+
+49
+00:02:14,018 --> 00:02:16,019
+this example I'm going to be entering 15
+
+50
+00:02:16,019 --> 00:02:16,739
+gigabytes.
+
+51
+00:02:21,539 --> 00:02:23,060
+And as you can see the total is still
+
+52
+00:02:23,060 --> 00:02:25,660
+$69.99 because package C
+
+53
+00:02:25,660 --> 00:02:28,140
+includes unlimited data, which package A
+
+54
+00:02:28,140 --> 00:02:30,741
+and package B didn't include, which is
+
+55
+00:02:30,741 --> 00:02:33,301
+why the price stays the same. And
+
+56
+00:02:33,301 --> 00:02:36,061
+that's pretty much how my program works.
+
+57
+00:02:36,462 --> 00:02:37,262
+Thank you for watching.
