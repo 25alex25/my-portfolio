@@ -175,6 +175,53 @@ footer {
 }
 
 
+        
+/* Contact Form */
+.contact-page .contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.contact-page .contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+.contact-page form label {
+    font-size: 18px;
+}
+
+.contact-page form input,
+.contact-page form select,
+.contact-page form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #64748B;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.contact-page form button {
+    background-color: #2563EB;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-page form button:hover {
+    background-color: #1D4ED8;
+}
+
 
 
 
