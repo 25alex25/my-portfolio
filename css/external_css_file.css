@@ -358,3 +358,43 @@ footer {
     
     
 }
+
+/* Advanced CSS Styling */
+
+/* Text Shadow */
+main h1 {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Gradient and Box Shadow */
+.project-card {
+    background: linear-gradient(#1E293B, #334155);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Opacity Effect */
+.project-card:hover {
+    opacity: 0.9;
+}
+
+/* Tablet Responsive Design */
+@media (min-width: 601px) and (max-width: 900px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav {
+        position: static;
+        transform: none;
+        width: 100%;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+
+
